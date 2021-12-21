@@ -5,7 +5,7 @@ for(let i of arr)
     let firstLetter = i.toString().substr(0, 1);
     if(firstLetter == 1 || firstLetter == 2 || firstLetter == 5)
     {
-        console.log(i)
+        alert(i)
     }
 
 }
