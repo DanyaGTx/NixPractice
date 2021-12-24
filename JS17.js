@@ -4,7 +4,7 @@
     let sum = 0;
     for(let i of str)
     {
-        sum = Number(sum) + Number(i);
+        sum += +i; 
     }
     if(sum % 3 == 0)
     {
